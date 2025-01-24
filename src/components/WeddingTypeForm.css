@@ -1,0 +1,62 @@
+/* WeddingTypeForm.css */
+
+/* Style for the container */
+.wedding-type-form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wedding-type-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style for radio group */
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style each radio button option */
+  .radio-group label {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Style the radio button input */
+  .radio-group input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    accent-color: #4CAF50; /* Custom color for the radio button */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect on radio buttons */
+  .radio-group input[type="radio"]:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Selected radio button style */
+  .radio-group input[type="radio"]:checked {
+    background-color: #4CAF50;
+  }
+  
+  /* Style for the labels when hovered */
+  .radio-group input[type="radio"]:checked + label {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  

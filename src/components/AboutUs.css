@@ -1,0 +1,212 @@
+.about-us-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    background-image: url('../../public/images/wedsymphony_background.png');
+    background-size: cover;
+  }
+  
+  .about-us-header {
+    background-color: #800000; /* Rich maroon color, commonly used in Indian weddings */
+    color: #fff; /* White text for contrast */
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif; /* Clean, modern font that still feels classy */
+    letter-spacing: 3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.about-us-header h2 {
+    margin: 0;
+    font-size: 2rem; /* Larger for prominence */
+    font-weight: 10;
+    line-height: 1.3;
+}
+
+.about-us-header p {
+    font-size: 1.25rem; /* Adjusted for easy readability */
+    color: #f4f4f4; /* Soft, off-white color for balance */
+    margin-top: 15px;
+    font-style: italic; /* Adding an elegant touch */
+}
+  
+  .about-us-title {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-tagline {
+    font-size: 1rem;
+    color: #f9f9f9;
+    font-style: italic;
+  }
+  
+  
+  .about-us-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-us-text h2 {
+    font-size: 2rem;
+    color: #800000;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .about-us-text p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-mission-vision {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 40px;
+  }
+  
+  .about-us-mission,
+  .about-us-vision {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-mission h3,
+  .about-us-vision h3 {
+    font-size: 1.5rem;
+    color: #800000;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .about-us-mission p,
+  .about-us-vision p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #777;
+  }
+  
+  .about-us-team {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .about-us-team h2{
+    color: #800000;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 30px;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.05);
+  }
+  
+  .team-member-photo {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .team-member-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #f15a29; /* Border for a more refined look */
+  }
+  
+  .team-member-info {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .team-member-info h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .team-member-info p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Fee Section Styling */
+  .fee-section {
+    background-color: #f15a29;
+    color: white;
+    padding: 40px;
+    margin-top: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fee-section h3 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .fee-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .fee-section .fee-details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .fee-details .fee {
+    text-align: center;
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fee-details .fee h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .fee-details .fee p {
+    font-size: 1.1rem;
+    color: #777;
+  }
+  
