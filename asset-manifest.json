@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/wed-symphony/static/css/main.e9da48b8.css",
+    "main.js": "/wed-symphony/static/js/main.0ab92dce.js",
+    "static/media/wedsymphony_background.png": "/wed-symphony/static/media/wedsymphony_background.b3fae23c384994997639.png",
+    "static/media/slick.svg": "/wed-symphony/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/wed-symphony/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/wed-symphony/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/wed-symphony/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/wed-symphony/index.html",
+    "main.e9da48b8.css.map": "/wed-symphony/static/css/main.e9da48b8.css.map",
+    "main.0ab92dce.js.map": "/wed-symphony/static/js/main.0ab92dce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9da48b8.css",
+    "static/js/main.0ab92dce.js"
+  ]
+}
